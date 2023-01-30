@@ -31,7 +31,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
       <div className="settings">
         {/* <span style={{ fontSize: 30 }}>Enter in Quiz</span> */}
         <div className="settings__select">
-          {error && <ErrorMessage>Please Fill all the feilds</ErrorMessage>}
+          {error && <ErrorMessage>Please Fill all the fields</ErrorMessage>}
           <TextField data-aos="fade-left" 
             style={{ marginBottom: 25}}
             label="Enter Your Name"
@@ -84,7 +84,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
             size="large"
             onClick={handleSubmit}
           >
-            Start
+            START
           </Button>
         </div>
       </div>
